@@ -1,25 +1,88 @@
-## Instacart Basket Analysis Project
+# Instacart Customer Basket Analysis
 
-The Instacart Basket Analysis project involved analyzing an open-source grocery dataset to uncover customer purchasing patterns, spending trends, and regional behaviors that could inform marketing and sales strategies. Using Python (Pandas, NumPy, Matplotlib, and Seaborn), I extracted insights from over 30 million grocery orders and created visual summaries to identify customer segments, product preferences, and optimal timing for promotional activities.
+## Project Overview
+This project explores customer purchasing behaviour using Instacart transactional, product, and customer data. The analysis was completed in Python using Jupyter Notebook and focuses on data preparation, data quality validation, customer and product-level analysis, feature engineering, aggregation, and visual exploration.
 
-### Instacart Data Analysis & Insights
+The goal of the project was to transform raw retail data into a structured, analysis-ready dataset and generate business insights that could support customer segmentation, purchasing behaviour analysis, and stakeholder reporting.
 
-In this project, I worked with Instacart’s historical transaction data to analyze how different customer groups shop, how frequently they return, and which departments contribute most to overall sales. The findings were summarized into a management-ready report highlighting key opportunities to improve customer retention and targeted marketing.
+## Business Context
+Instacart is an online grocery delivery and pickup platform. The project simulates the role of a data analyst working with retail transaction data to answer business questions related to:
 
-The project began with data cleaning and consistency checks, where I identified and addressed missing values, duplicates, and non-uniform entries across multiple datasets (orders, products, order_products_prior, and customers). I then created derived variables such as loyalty status, price range, spending level, and customer profiles to enable deeper segmentation and behavioral analysis.
+- customer ordering patterns
+- product purchasing behaviour
+- pricing and basket trends
+- customer segmentation
+- loyalty and activity profiling
+- data quality and reporting readiness
 
-**Next, I performed data aggregations and groupby operations to answer core business questions, such as:**
-- Which departments receive the highest number of product orders?
-- How does customer spending vary across different regions?
-- Which customer profiles show the highest purchasing frequency and order value?
+## Objectives
+The main objectives of this project were to:
 
-After completing the Python analysis, I compiled the results into a clear, Excel-based presentation featuring charts, crosstabs, and heatmaps. This deliverable summarized patterns in loyalty distribution, regional purchasing behavior, and high-performing product categories such as Produce, Dairy & Eggs, and Beverages.
+- import and structure multiple raw datasets in Python
+- assess and improve data quality through consistency checks and cleaning
+- combine related datasets into a unified analysis layer
+- derive new variables to support segmentation and behavioural analysis
+- aggregate customer and order-level metrics
+- build visualisations to identify trends, distributions, and outliers
+- prepare findings and outputs for stakeholder-friendly reporting
 
-To ensure transparency and reproducibility, I also exported the final cleaned dataset and included all variable derivations and documentation within the Excel report. Finally, I organized a complete Jupyter workflow for technical colleagues, detailing each step of the data wrangling, merging, and analysis process.
+## Tools Used
+- Python
+- Jupyter Notebook
+- pandas
+- NumPy
+- matplotlib
+- seaborn
+- Excel
 
-### This project demonstrates my ability to:
-- Clean, merge, and structure multi-source datasets efficiently in Python.
-- Derive analytical variables and create behavioral customer segments.
-- Translate data into meaningful visual insights using Matplotlib and Seaborn.
-- Communicate findings clearly to both technical and non-technical audiences.
-- Document analytical workflows and outputs with professional clarity.
+## Project Workflow
+The project followed a structured analytical workflow:
+
+1. **Project setup and notebook organisation**  
+   Established a clear folder structure, imported required libraries, and prepared the working environment in Jupyter Notebook.
+
+2. **Data import and initial profiling**  
+   Loaded raw CSV files into pandas dataframes and reviewed structure, dimensions, data types, and descriptive statistics.
+
+3. **Data wrangling and structuring**  
+   Removed unnecessary columns, renamed fields for clarity, adjusted data types, and reorganised data for analysis.
+
+4. **Data quality checks and cleaning**  
+   Reviewed missing values, duplicates, mixed data types, and abnormal values to improve consistency and analysis readiness.
+
+5. **Data combining and merging**  
+   Merged transactional, product, and customer data into integrated datasets using common key fields.
+
+6. **Feature engineering and segmentation**  
+   Created derived variables and flags to support customer profiling, price grouping, and behavioural analysis.
+
+7. **Grouping and aggregation**  
+   Applied grouped calculations to create customer-level and department-level summary metrics.
+
+8. **Visual exploration and reporting**  
+   Built charts to analyse distributions, trends, and relationships, then prepared final outputs for reporting.
+
+## Key Analysis Areas
+This project includes analysis related to:
+
+- order frequency and customer activity
+- day-of-week and hour-of-day ordering behaviour
+- pricing distributions and outlier checks
+- department-level purchasing patterns
+- customer segmentation by loyalty, activity, and profile characteristics
+- grouped customer and product metrics
+- exploratory charting for pattern recognition and insight development
+
+## Repository Structure
+```text
+[01] Project Brief & Planning
+[02] Data
+    [1] Original Data
+    [2] Data Checks & Cleaning
+    [3] Prepared Data
+[03] Python Scripts
+[04] Analysis & Visualizations
+    [1] Reports
+    [2] Visualizations
+    [3] Test Files
+[05] Final Deliverables
