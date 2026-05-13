@@ -72,7 +72,12 @@ This project includes analysis related to:
 - customer segmentation by loyalty, activity, and profile characteristics
 - grouped customer and product metrics
 - exploratory charting for pattern recognition and insight development
+---
+Built by **Elia Lanz**, a freelance data analyst specialising in [data analytics for transport and logistics](https://www.elialanz.com/dashboard-service/), retail, transport, booking based services, and e-commerce.
 
+[See how I work with clients →](https://www.elialanz.com/dashboard-service/) · [Other data services I offer →](https://www.elialanz.com/hire-me/) · [elialanz.com](https://www.elialanz.com)
+
+---
 ## Repository Structure
 ```text
 [01] Project Brief & Planning
